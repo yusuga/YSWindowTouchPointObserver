@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8B21C3A1951262300D55609 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B21C391951262300D55609 /* Foundation.framework */; };
+		B8B21C3C1951262300D55609 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B21C3B1951262300D55609 /* CoreGraphics.framework */; };
+		B8B21C3E1951262300D55609 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B21C3D1951262300D55609 /* UIKit.framework */; };
+		B8B21C441951262300D55609 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8B21C421951262300D55609 /* InfoPlist.strings */; };
+		B8B21C461951262300D55609 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B21C451951262300D55609 /* main.m */; };
+		B8B21C4A1951262300D55609 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B21C491951262300D55609 /* AppDelegate.m */; };
+		B8B21C4D1951262300D55609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B21C4B1951262300D55609 /* Main.storyboard */; };
+		B8B21C501951262300D55609 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B21C4F1951262300D55609 /* ViewController.m */; };
+		B8B21C521951262300D55609 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B21C511951262300D55609 /* Images.xcassets */; };
+		B8B21C591951262300D55609 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B21C581951262300D55609 /* XCTest.framework */; };
+		B8B21C5A1951262300D55609 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B21C391951262300D55609 /* Foundation.framework */; };
+		B8B21C5B1951262300D55609 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B21C3D1951262300D55609 /* UIKit.framework */; };
+		B8B21C631951262300D55609 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8B21C611951262300D55609 /* InfoPlist.strings */; };
+		B8B21C651951262300D55609 /* YSWindowTouchPointObserverExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B21C641951262300D55609 /* YSWindowTouchPointObserverExampleTests.m */; };
+		B8B21C711951265D00D55609 /* YSWindowTouchPointObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B21C701951265D00D55609 /* YSWindowTouchPointObserver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8B21C5C1951262300D55609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8B21C2E1951262300D55609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8B21C351951262300D55609;
+			remoteInfo = YSWindowTouchPointObserverExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8B21C361951262300D55609 /* YSWindowTouchPointObserverExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSWindowTouchPointObserverExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B21C391951262300D55609 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8B21C3B1951262300D55609 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8B21C3D1951262300D55609 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8B21C411951262300D55609 /* YSWindowTouchPointObserverExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YSWindowTouchPointObserverExample-Info.plist"; sourceTree = "<group>"; };
+		B8B21C431951262300D55609 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8B21C451951262300D55609 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8B21C471951262300D55609 /* YSWindowTouchPointObserverExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YSWindowTouchPointObserverExample-Prefix.pch"; sourceTree = "<group>"; };
+		B8B21C481951262300D55609 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8B21C491951262300D55609 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8B21C4C1951262300D55609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8B21C4E1951262300D55609 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8B21C4F1951262300D55609 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8B21C511951262300D55609 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B8B21C571951262300D55609 /* YSWindowTouchPointObserverExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSWindowTouchPointObserverExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B21C581951262300D55609 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B8B21C601951262300D55609 /* YSWindowTouchPointObserverExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YSWindowTouchPointObserverExampleTests-Info.plist"; sourceTree = "<group>"; };
+		B8B21C621951262300D55609 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8B21C641951262300D55609 /* YSWindowTouchPointObserverExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSWindowTouchPointObserverExampleTests.m; sourceTree = "<group>"; };
+		B8B21C6F1951265D00D55609 /* YSWindowTouchPointObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSWindowTouchPointObserver.h; sourceTree = "<group>"; };
+		B8B21C701951265D00D55609 /* YSWindowTouchPointObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSWindowTouchPointObserver.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8B21C331951262300D55609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B21C3C1951262300D55609 /* CoreGraphics.framework in Frameworks */,
+				B8B21C3E1951262300D55609 /* UIKit.framework in Frameworks */,
+				B8B21C3A1951262300D55609 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B21C541951262300D55609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B21C591951262300D55609 /* XCTest.framework in Frameworks */,
+				B8B21C5B1951262300D55609 /* UIKit.framework in Frameworks */,
+				B8B21C5A1951262300D55609 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8B21C2D1951262300D55609 = {
+			isa = PBXGroup;
+			children = (
+				B8B21C3F1951262300D55609 /* YSWindowTouchPointObserverExample */,
+				B8B21C6E1951264500D55609 /* YSWindowTouchPointObserver */,
+				B8B21C5E1951262300D55609 /* YSWindowTouchPointObserverExampleTests */,
+				B8B21C381951262300D55609 /* Frameworks */,
+				B8B21C371951262300D55609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8B21C371951262300D55609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8B21C361951262300D55609 /* YSWindowTouchPointObserverExample.app */,
+				B8B21C571951262300D55609 /* YSWindowTouchPointObserverExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8B21C381951262300D55609 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8B21C391951262300D55609 /* Foundation.framework */,
+				B8B21C3B1951262300D55609 /* CoreGraphics.framework */,
+				B8B21C3D1951262300D55609 /* UIKit.framework */,
+				B8B21C581951262300D55609 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8B21C3F1951262300D55609 /* YSWindowTouchPointObserverExample */ = {
+			isa = PBXGroup;
+			children = (
+				B8B21C481951262300D55609 /* AppDelegate.h */,
+				B8B21C491951262300D55609 /* AppDelegate.m */,
+				B8B21C4B1951262300D55609 /* Main.storyboard */,
+				B8B21C4E1951262300D55609 /* ViewController.h */,
+				B8B21C4F1951262300D55609 /* ViewController.m */,
+				B8B21C511951262300D55609 /* Images.xcassets */,
+				B8B21C401951262300D55609 /* Supporting Files */,
+			);
+			path = YSWindowTouchPointObserverExample;
+			sourceTree = "<group>";
+		};
+		B8B21C401951262300D55609 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8B21C411951262300D55609 /* YSWindowTouchPointObserverExample-Info.plist */,
+				B8B21C421951262300D55609 /* InfoPlist.strings */,
+				B8B21C451951262300D55609 /* main.m */,
+				B8B21C471951262300D55609 /* YSWindowTouchPointObserverExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8B21C5E1951262300D55609 /* YSWindowTouchPointObserverExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8B21C641951262300D55609 /* YSWindowTouchPointObserverExampleTests.m */,
+				B8B21C5F1951262300D55609 /* Supporting Files */,
+			);
+			path = YSWindowTouchPointObserverExampleTests;
+			sourceTree = "<group>";
+		};
+		B8B21C5F1951262300D55609 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8B21C601951262300D55609 /* YSWindowTouchPointObserverExampleTests-Info.plist */,
+				B8B21C611951262300D55609 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8B21C6E1951264500D55609 /* YSWindowTouchPointObserver */ = {
+			isa = PBXGroup;
+			children = (
+				B8B21C6F1951265D00D55609 /* YSWindowTouchPointObserver.h */,
+				B8B21C701951265D00D55609 /* YSWindowTouchPointObserver.m */,
+			);
+			name = YSWindowTouchPointObserver;
+			path = ../../Classes/YSWindowTouchPointObserver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8B21C351951262300D55609 /* YSWindowTouchPointObserverExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B21C681951262300D55609 /* Build configuration list for PBXNativeTarget "YSWindowTouchPointObserverExample" */;
+			buildPhases = (
+				B8B21C321951262300D55609 /* Sources */,
+				B8B21C331951262300D55609 /* Frameworks */,
+				B8B21C341951262300D55609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSWindowTouchPointObserverExample;
+			productName = YSWindowTouchPointObserverExample;
+			productReference = B8B21C361951262300D55609 /* YSWindowTouchPointObserverExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8B21C561951262300D55609 /* YSWindowTouchPointObserverExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B21C6B1951262300D55609 /* Build configuration list for PBXNativeTarget "YSWindowTouchPointObserverExampleTests" */;
+			buildPhases = (
+				B8B21C531951262300D55609 /* Sources */,
+				B8B21C541951262300D55609 /* Frameworks */,
+				B8B21C551951262300D55609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8B21C5D1951262300D55609 /* PBXTargetDependency */,
+			);
+			name = YSWindowTouchPointObserverExampleTests;
+			productName = YSWindowTouchPointObserverExampleTests;
+			productReference = B8B21C571951262300D55609 /* YSWindowTouchPointObserverExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8B21C2E1951262300D55609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yu Sugawara";
+				TargetAttributes = {
+					B8B21C561951262300D55609 = {
+						TestTargetID = B8B21C351951262300D55609;
+					};
+				};
+			};
+			buildConfigurationList = B8B21C311951262300D55609 /* Build configuration list for PBXProject "YSWindowTouchPointObserverExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8B21C2D1951262300D55609;
+			productRefGroup = B8B21C371951262300D55609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8B21C351951262300D55609 /* YSWindowTouchPointObserverExample */,
+				B8B21C561951262300D55609 /* YSWindowTouchPointObserverExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8B21C341951262300D55609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B21C521951262300D55609 /* Images.xcassets in Resources */,
+				B8B21C441951262300D55609 /* InfoPlist.strings in Resources */,
+				B8B21C4D1951262300D55609 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B21C551951262300D55609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B21C631951262300D55609 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8B21C321951262300D55609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B21C711951265D00D55609 /* YSWindowTouchPointObserver.m in Sources */,
+				B8B21C501951262300D55609 /* ViewController.m in Sources */,
+				B8B21C4A1951262300D55609 /* AppDelegate.m in Sources */,
+				B8B21C461951262300D55609 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B21C531951262300D55609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B21C651951262300D55609 /* YSWindowTouchPointObserverExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8B21C5D1951262300D55609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8B21C351951262300D55609 /* YSWindowTouchPointObserverExample */;
+			targetProxy = B8B21C5C1951262300D55609 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8B21C421951262300D55609 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8B21C431951262300D55609 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B8B21C4B1951262300D55609 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8B21C4C1951262300D55609 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8B21C611951262300D55609 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8B21C621951262300D55609 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8B21C661951262300D55609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8B21C671951262300D55609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8B21C691951262300D55609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSWindowTouchPointObserverExample/YSWindowTouchPointObserverExample-Prefix.pch";
+				INFOPLIST_FILE = "YSWindowTouchPointObserverExample/YSWindowTouchPointObserverExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8B21C6A1951262300D55609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSWindowTouchPointObserverExample/YSWindowTouchPointObserverExample-Prefix.pch";
+				INFOPLIST_FILE = "YSWindowTouchPointObserverExample/YSWindowTouchPointObserverExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B8B21C6C1951262300D55609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YSWindowTouchPointObserverExample.app/YSWindowTouchPointObserverExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSWindowTouchPointObserverExample/YSWindowTouchPointObserverExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YSWindowTouchPointObserverExampleTests/YSWindowTouchPointObserverExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B8B21C6D1951262300D55609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YSWindowTouchPointObserverExample.app/YSWindowTouchPointObserverExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSWindowTouchPointObserverExample/YSWindowTouchPointObserverExample-Prefix.pch";
+				INFOPLIST_FILE = "YSWindowTouchPointObserverExampleTests/YSWindowTouchPointObserverExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8B21C311951262300D55609 /* Build configuration list for PBXProject "YSWindowTouchPointObserverExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B21C661951262300D55609 /* Debug */,
+				B8B21C671951262300D55609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B21C681951262300D55609 /* Build configuration list for PBXNativeTarget "YSWindowTouchPointObserverExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B21C691951262300D55609 /* Debug */,
+				B8B21C6A1951262300D55609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8B21C6B1951262300D55609 /* Build configuration list for PBXNativeTarget "YSWindowTouchPointObserverExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B21C6C1951262300D55609 /* Debug */,
+				B8B21C6D1951262300D55609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8B21C2E1951262300D55609 /* Project object */;
+}
