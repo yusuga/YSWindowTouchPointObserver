@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B87F147E1BB8F98B00A43904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87F147D1BB8F98B00A43904 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		B8B21C3A1951262300D55609 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B21C391951262300D55609 /* Foundation.framework */; };
 		B8B21C3C1951262300D55609 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B21C3B1951262300D55609 /* CoreGraphics.framework */; };
 		B8B21C3E1951262300D55609 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B21C3D1951262300D55609 /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B87F147D1BB8F98B00A43904 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8B21C361951262300D55609 /* YSWindowTouchPointObserverExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSWindowTouchPointObserverExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B21C391951262300D55609 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B8B21C3B1951262300D55609 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +124,7 @@
 				B8B21C4E1951262300D55609 /* ViewController.h */,
 				B8B21C4F1951262300D55609 /* ViewController.m */,
 				B8B21C511951262300D55609 /* Images.xcassets */,
+				B87F147D1BB8F98B00A43904 /* LaunchScreen.storyboard */,
 				B8B21C401951262300D55609 /* Supporting Files */,
 			);
 			path = YSWindowTouchPointObserverExample;
@@ -210,7 +213,7 @@
 		B8B21C2E1951262300D55609 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Yu Sugawara";
 				TargetAttributes = {
 					B8B21C561951262300D55609 = {
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8B21C521951262300D55609 /* Images.xcassets in Resources */,
+				B87F147E1BB8F98B00A43904 /* LaunchScreen.storyboard in Resources */,
 				B8B21C441951262300D55609 /* InfoPlist.strings in Resources */,
 				B8B21C4D1951262300D55609 /* Main.storyboard in Resources */,
 			);
@@ -334,6 +338,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -394,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YSWindowTouchPointObserverExample/YSWindowTouchPointObserverExample-Prefix.pch";
 				INFOPLIST_FILE = "YSWindowTouchPointObserverExample/YSWindowTouchPointObserverExample-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.YuSugawara.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,6 +413,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YSWindowTouchPointObserverExample/YSWindowTouchPointObserverExample-Prefix.pch";
 				INFOPLIST_FILE = "YSWindowTouchPointObserverExample/YSWindowTouchPointObserverExample-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.YuSugawara.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -428,6 +435,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "YSWindowTouchPointObserverExampleTests/YSWindowTouchPointObserverExampleTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.YuSugawara.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -446,6 +454,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YSWindowTouchPointObserverExample/YSWindowTouchPointObserverExample-Prefix.pch";
 				INFOPLIST_FILE = "YSWindowTouchPointObserverExampleTests/YSWindowTouchPointObserverExampleTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.YuSugawara.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -471,6 +480,7 @@
 				B8B21C6A1951262300D55609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8B21C6B1951262300D55609 /* Build configuration list for PBXNativeTarget "YSWindowTouchPointObserverExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +489,7 @@
 				B8B21C6D1951262300D55609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
